@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Linux Genius</title>
+  <link rel="stylesheet" href="style-Content.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+    import ReactWordcloud from "react-wordcloud";
+  </script><link rel="icon" href="img/A Beginner's Guide to Free Linux Operating Systems.jpeg" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="header-la">
+      <img src="img/A Beginner's Guide to Free Linux Operating Systems.jpeg" alt="" class="logo">
+      <h3>Linux Genius</h3>
+    </div>
+    <div class="header-ra">
+      <ul>
+        <li class="box"><a href="index.html" class="link">Accueil</a></li>
+        <li class="box"><a href="index.html#A-propos" class="link">A-propos</a></li>
+        <li class="box"><a href="index.html#contact" class="link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <div style="background:#a18a65e8;">
+    <h6 class="titre1" style="text-align:center; color:aliceblue; padding:10px;">Plongez dans le monde intrigant Linux🐧</h6>
+  </div>
+
+
+  <main>
+    <aside class="left-aside">
+      <div class="sous-menu">
+        <H1><i class="fa fa-bars" aria-hidden="true"></i> Sommaire</H1>
+        <div class="menu1">
+          <button class="dropdown-btn button-64">
+            <span class="text">Introduction sur Système d'exploitation <i class="fa fa-caret-down"></i></span>
+          </button>
+          <div class="dropdown-container">
+            <ul>
+              <li><a href="intro.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
+              <li><a href="intro.html#OBJ"><i class="fa fa-book" aria-hidden="true"></i> Les objects</a></li>
+            </ul>
+          </div>
+          <button class="dropdown-btn button-64">
+            <span class="text"> Historique Système d'exploitation  <i class="fa fa-caret-down"></i></span>
+          </button>
+          <div class="dropdown-container">
+            <ul>
+              <li><a href="histoire.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
+              <li><a href="histoire.html#doc"><i class="fa fa-book" aria-hidden="true"></i> Cours</a></li>
+              <li><a href="histoire.html#qcm"><i class="fa fa-diamond" aria-hidden="true"></i> QCM</a></li>
+            </ul>
+          </div>
+          <button class="dropdown-btn button-64">
+            <span class="text">Le système Linux <i class="fa fa-caret-down"></i></span>
+          </button>
+          <div class="dropdown-container">
+            <ul>
+              <li><a href="linux1.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
+              <li><a href="linux1.html#doc"><i class="fa fa-book" aria-hidden="true"></i>Cours</a></li>
+              <li><a href="linux1.html#qcm"><i class="fa fa-diamond" aria-hidden="true"></i> QCM</a></li>
+            </ul>
+          </div>
+          <button class="dropdown-btn button-64">
+            <span class="text">Prise en main du Système Linux<i class="fa fa-caret-down"></i></span>
+          </button>
+          <div class="dropdown-container">
+            <ul>
+              <li><a href="linux2.html#video"><i class="fa fa-video-camera" aria-hidden="true"></i> Vidéo Cours</a></li>
+              <li><a href="linux2.html#doc"><i class="fa fa-book" aria-hidden="true"></i> Cours</a></li>
+              <li><a href="linux2.html#qcm"> <i class="fa fa-diamond" aria-hidden="true"></i> QCM </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <article>
+      <div class="Intro">
+    
+        <h1>Le système Linux</h1>
+        <center>
+       <p>Le système Linux est un système d'exploitation basé sur le noyau Linux, qui offre une plateforme sécurisée et flexible pour divers appareils, des ordinateurs personnels aux serveurs en passant par les appareils mobiles</p> 
+       </center>
+      </div>
+      <section class="contenu">
+        <h2 id="video">La vidéo :</h2>
+        <center>
+          <video class="video" controls>
+            <source src="img/vd11.mp4" type="video/mp4">
+          </video>
+        </center>
+        <H2 id="doc">Le cours:</H2>
+        <br>
+        <H3>1. Accès à la Machine sous Linux</H3><br>
+        <p>
+          Le système linux étant un système multi-utilisateur, pour y a accéder on doit entrer un nom et mot de passe utilisateur.<br>
+          a)	Système Multi-Utilisateur :<br>
+          ▪️Utilisateur simple : droits restreints et chaque utilisateur possède un répertoire de travail.<br>
+          ▪️	Super Utilisateur ou Administrateur (root) : tous les droits.<br>
+          b)	Organisation d’utilisateurs en groupes: chaque utilisateur doit appartenir à un groupe<br>
+          c)	Connexion au système : login/passaword requis et la connexion se fait de deux mode différents :<br>
+          ▪️	Mode texte ou console (exécution des commandes Shell)<br>
+          ▪️	Mode graphique (à l‟aide du serveur de graphisme X-Window)
+        </p>
+        <H3 >2.	Position du noyau Linux dans une distribution:</H3>
+      
+        <p>
+▪️	Noyau Linux : ensemble de programmes pour gérer la machine et ses ressources<br>
+▪️	Shell : Interpréteur de commandes<br>
+▪️	Pilotes:	Drivers	des	périphériques	(disques	durs,	carte	graphique,	carte	réseau, imprimantes,…)<br>
+▪️	Logiciels d‟applications : différents logiciels<br>
+-	X-Window : pour fournir un environnement de graphisme<br>
+-	KDE et Gnome : pour gérer l‟interface graphique (fenêtres,…)
+        </p>
+        <H3>3.Le Shell : </H3>
+        <p>
+          C'est l'interface entre les utilisateurs et le système. Le Shell est un interpréteur qui exécute les commandes une à une après traduction de l'instruction (écrit en langage évolué) en langage interne (langage machine). 
+        </p>
+    
+        <center><H4 style="color: rgb(107, 241, 18);",>Versions du Shell : sh, ksh, bash,chs,…:</H4></center>
+      </p>
+      <br>
+      <H3> 4.	La distribution Red Hat:</H3>
+        <p>
+a)	Connexion en mode graphique : voir interface graphique<br>
+b)	Connexion en mode texte : Si les login/password sont valides alors un message de la forme suivante sera affiché: [user@machine ~ ]$<br>
+▪️	user: le nom de l‟utilisateur connecté<br>
+▪️	machine : le nom de la machine<br>
+▪️	~ : caractère spécial désigne le répertoire de travail de l‟utilisateur connecté<br>
+▪️	Le signe $ : indique que vous êtes en un simple utilisateur<br>
+▪️	Le signe # : indique que vous êtes en mode super-user.
+        </p>
+        <style>
+          h3 {
+            color: rgb(3, 0, 1);
+          }
+          .cadre {
+            border: 1px solid rgb(234, 24, 24);
+            padding: 10px;
+            width: fit-content;
+          }
+          .blue-text:before {
+            content: attr(data-text);
+            color: blue;
+          }
+        </style>
+        </head>
+        <body>
+        
+        <H3>5.Quelques commandes (utilisation du Shell) :</H3>
+        <center>
+        <p class="cadre">
+          - <span class="blue-text" data-text="date"></span> : Afficher la date et l‟heure<br>
+          - <span class="blue-text" data-text="cal"></span> : afficher un calendrier<br>
+          - <span class="blue-text" data-text="uname"></span> : afficher le nom et les caractéristiques du système.<br>
+          - <span class="blue-text" data-text="passwd"></span> : modifier son mot de passe<br>
+          - <span class="blue-text" data-text="man nom-commande"></span> :<br>
+          ---> manuel pour afficher une page d‟aide (forme de commande, option,...)<br>
+          ---> exemple : man man : plus d‟information sur l‟utilisation du man<br>
+          🛑Remarque : commande --help ou commande -h :<br>
+           une option commune à la majorité des commandes pour afficher l‟aide (exp : ls --help, man -h)<br>
+          - <span class="blue-text" data-text="adduser user1"></span> : ajoute l‟utilisateur user1<br>
+          - <span class="blue-text" data-text="passwd user1"></span> : pour donner ou changer le mot de passe user1<br>
+          - <span class="blue-text" data-text="addgroup grp1"></span> : ajoute le groupe grp1<br>
+          - <span class="blue-text" data-text="adduser user1 grp1"></span> : ajoute l‟utilisateur user1 au groupe grp1<br>
+          - <span class="blue-text" data-text="groupadd grp2"></span> : crée un groupe grp2<br>
+          - <span class="blue-text" data-text="chgrp grp2 user1"></span> : le groupe de user1 est maintenant grp2<br>
+          - <span class="blue-text" data-text="userdel"></span> : pour supprimer un utilisateur ;<br>
+          - <span class="blue-text" data-text="groupdel"></span> : pour supprimer un utilisateur ;<br>
+        </p>
+      </center>
+
+        <H2 id="qcm">Exercice du chapitre :</H2>
+        <div style="width:100%; height:300px; overflow:hidden">
+        <iframe allowfullscreen src="https://ladigitale.dev/digiquiz/q/65a19ef9eff2f/" frameborder="0" width="100%" height="500" style="overflow:hidden; background:#fff"></iframe></div>
+      </section>
+      <div class="navigation">
+        <a href="intro.html" class="swipp"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+          Précédant</a>
+        <a href="linux1.html" class="swipp"> Suivant <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> </a>
+      </div>
+      <div class="afer-Footer">
+
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Accueil</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">A-propos</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Cours</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+      </ul>
+      <p>&copy; 2024 AI Genius  Tous droits réservés</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+    <script>
+      /* Utiliser "DOMCo
+      ntentLoaded" pour s'assurer que le DOM est entièrement chargé avant d'attacher des écouteurs d'événements */
+      document.addEventListener("DOMContentLoaded", function () {
+        /* Sélectionner tous les éléments avec la classe "dropdown-btn" */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        /* Ajouter un écouteur d'événements à chaque bouton */
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function () {
+            /* Basculer la classe "active" pour appliquer des styles spécifiques au bouton actif */
+            this.classList.toggle("active");
+
+            /* Sélectionner le contenu du menu déroulant associé à ce bouton */
+            var dropdownContent = this.nextElementSibling;
+
+            /* Basculer l'affichage du contenu du menu déroulant */
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      });
+    </script>
+</body>
+
+</html>
